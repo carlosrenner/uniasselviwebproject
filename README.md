@@ -4,7 +4,9 @@ A ideia é um registro simples de Carros.
 Colocar os arquivos na pasta htdocs do XAMPP, e executar a Query a seguir no Banco de Dados mysql:
 
 Create Database meusite;
+
 Use Database meusite;
+
 -- Tabela de Usuários
 CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
