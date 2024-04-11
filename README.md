@@ -2,6 +2,7 @@ Trabalho da Uniasselvi, implementando uma aplicação web.
 A ideia é um registro simples de Carros.
 
 Colocar os arquivos na pasta htdocs do XAMPP, e executar a Query a seguir no Banco de Dados mysql:
+
 Create Database meusite;
 Use Database meusite;
 -- Tabela de Usuários
