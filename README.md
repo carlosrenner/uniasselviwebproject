@@ -8,6 +8,7 @@ Create Database meusite;
 Use Database meusite;
 
 -- Tabela de Usuários
+
 CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100),
@@ -16,6 +17,7 @@ CREATE TABLE usuarios (
 );
 
 -- Tabela de Veículos
+
 CREATE TABLE veiculos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     marca VARCHAR(100),
