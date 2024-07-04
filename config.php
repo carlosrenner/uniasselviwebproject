@@ -2,14 +2,14 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = ""; // Lembre-se de alterar isso se tiver configurado uma senha para o MySQL
+$password = "";
 $dbname = "meusite";
 
-// Cria a conexão
+// Cria a conexÃ£o
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Verifica a conexão
+// Verifica a conexÃ£o
 if ($conn->connect_error) {
-    die("Conexão falhou: " . $conn->connect_error);
+    die("ConexÃ£o falhou: " . $conn->connect_error);
 }
 ?>
